@@ -22,13 +22,13 @@
 | An abstract class can `extend` another Java class and `implement` multiple Java interfaces. | An interface can `extend` another Java interface only |
 | Abstract class can have final, non-final, static and non-static variables. | Interface has only static and final variables. |
 
-Important Reasons For Using Interfaces
+**Important Reasons For Using Interface**:
   - It is better to use interface when various implementations `share only method signature`.
   - Allows you to separate the definition of a method from the inheritance hierarchy.
   - It helps you to achieve loose coupling.
   - Designed to support dynamic method resolution at run time. 
   
-Important Reasons For Using Abstract Class
+**Important Reasons For Using Abstract Class**:
   - It should be used when various implementations of the same kind `share a common behavior`.
   - Abstract classes offer default functionality for the subclasses.
   - Provides a template for future specific classes.
