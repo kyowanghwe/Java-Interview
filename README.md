@@ -35,7 +35,11 @@
   - Helps you to define a common interface for its subclasses.
 
 ### `StringBuffer vs StringBuilder`
-![image](https://user-images.githubusercontent.com/60578423/213498045-4025fb6b-94bd-4680-be85-22be4ee0bd38.png)
+| StringBuffer | StringBuilder |
+| --- | --- |
+| StringBuffer operations are `thread-safe` and `synchronized` | StringBuilder operations are not `thread-safe` and `not-synchronized`. | 
+| StringBuffer is to used when `multiple threads` are working on the same String  | StringBuilder is used in a `single-threaded` environment |
+| StringBuffer performance is `slower` | StringBuilder performance is `faster` |
 
 # Spring Security 
 https://www.javainuse.com/webseries/spring-security-jwt/chap3 
