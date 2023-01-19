@@ -34,6 +34,9 @@
   - Provides a template for future specific classes.
   - Helps you to define a common interface for its subclasses.
 
+### `StringBuffer vs StringBuilder`
+![image](https://user-images.githubusercontent.com/60578423/213498045-4025fb6b-94bd-4680-be85-22be4ee0bd38.png)
+
 # Spring Security 
 https://www.javainuse.com/webseries/spring-security-jwt/chap3 
 
