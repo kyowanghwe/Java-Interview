@@ -41,6 +41,10 @@
 | StringBuffer is to used when `multiple threads` are working on the same String  | StringBuilder is used in a `single-threaded` environment |
 | StringBuffer performance is `slower` | StringBuilder performance is `faster` |
 
+# SQL
+The `INNER JOIN` keyword selects records that have matching values in both tables.
+The `LEFT JOIN` keyword returns all records from the `first` table, and the matching records from the second table.
+
 # Spring Security 
 https://www.javainuse.com/webseries/spring-security-jwt/chap3 
 
